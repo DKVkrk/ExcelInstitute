@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/black">
+
+
+    <TextView
+        android:id="@+id/marqueeText1"
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:layout_marginTop="5dp"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:padding="16dp"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="Welcome to Excel Institute."
+        android:textColor="#673AB7"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textAreYou"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_marginLeft="94dp"
+        android:layout_marginTop="230dp"
+        android:gravity="center"
+        android:text="Are You?"
+        android:textColor="#673AB7"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student"
+        android:id="@+id/st"
+        android:textStyle="italic"
+        android:textSize="25dp"
+        android:textColor="#00BCD4"
+        android:layout_marginLeft="88dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_marginTop="14dp"/>
+
+    <Button
+        android:id="@+id/tu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="24dp"
+        android:text="Tutor"
+        android:textColor="#00BCD4"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textSize="25dp"
+        android:textStyle="italic" />
+
+
+</LinearLayout>
+
+
+
+
+
+

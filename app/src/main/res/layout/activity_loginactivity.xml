@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/black">
+    <TextView
+        android:id="@+id/marqueeText3"
+        android:layout_width="354dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="5dp"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:padding="16dp"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="Welcome to Excel Institute."
+        android:textColor="#673AB7"
+        android:textSize="28sp"
+        />
+
+   <!-- <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"/>
+        android:src="@drawable/ic_launcher" /> Replace with your app icon -->
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:textSize="38dp"
+        android:textColor="#3F51B5"
+        android:textStyle="bold"
+        android:inputType="text"
+        android:background="@color/white"
+        android:layout_marginTop="55dp"/>
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textStyle="bold"
+        android:textColor="#3F51B5"
+        android:textSize="38dp"
+        android:inputType="textPassword"
+        android:layout_marginTop="55dp"
+        android:background="@color/white"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/lo"
+        android:textStyle="bold"
+        android:textColor="#FF5722"
+        android:onClick="onLoginClick"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginRight="65dp"
+        android:textSize="32dp"
+        android:background="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="226dp"
+        android:text="Forgot Password?"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textColor="#FF9800" />
+
+</LinearLayout>
